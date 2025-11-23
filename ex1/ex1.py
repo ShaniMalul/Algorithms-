@@ -22,6 +22,6 @@ from random_tuples import create_random_tuples
 
 a = create_random_tuples(5, 3, [int, float, str])
 
-mn, mx = find_min(a, key=lambda x: x[1])
-print("min:", mn)
-print("max:", mx)
+min_item, max_item = find_min(a, key=lambda x: x[1])
+print("min:", min_item)
+print("max:", max_item)
